@@ -9,6 +9,8 @@ lumen_api for task management
    Composer update
 # Create the database below in postgress
     task-db
+# Run migration with the command
+    php artisan make:migration create_tasks_table
 # Run the migration command to create tables in the database
     php artisan migrate
 # Start the application with the below command
